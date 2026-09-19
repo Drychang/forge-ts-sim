@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# experiment output: checkpoints, demonstrations, eval dumps, renders.
+# these run to tens of gigabytes and are deliberately out of the repository.
+outputs/
+logs/
+checkpoints/
+student_ckpts/
+adapter_ckpts/
+adapter_data/
+eval/
+eval_tilt/
+videos/
+figs/
+screenshots_realcolor/
+*.pt
+*.pth
+*.npz
+*.npy
+*.tar.gz
+*.mp4
+*.png
+*.jpg
+
+# local editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
