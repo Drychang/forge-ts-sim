@@ -1,15 +1,15 @@
 # Seeing Through the Displaced Frame — simulation code
 
 Training and evaluation code for the paper *Seeing Through the Displaced Frame: Privileged Noise
-Distillation for Vision-Force Precision Assembly* (under review, ICRA 2027).
+Distillation for Vision-Force Precision Assembly*.
 
 A privileged teacher observes the fixture-pose offset in simulation, or clean demonstrations are
 relabelled into the displaced frame in closed form. Either way the compensation ends up in the
 training data, and the deployed student sees only noisy state, a raw wrench window and two RGB
 cameras.
 
-> **Under double-anonymous review.** Absolute paths in the run scripts have had the account name
-> replaced with `user`, so they are examples rather than working paths. Set them for your machine.
+> Absolute paths in the run scripts have had the account name replaced with `user`, so they are
+> examples rather than working paths. Set them for your machine.
 
 ## Layout
 
@@ -74,4 +74,4 @@ gigabytes and live outside the repository.
 
 ## Citation
 
-Anonymous while under review. The entry will be updated on acceptance.
+The citation entry will be added when the preprint is posted.
